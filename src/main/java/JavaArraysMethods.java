@@ -19,18 +19,18 @@ public class JavaArraysMethods {
         for (char sym:ar)
         {
 
-            if (sym < max)
+            if (sym < max)  //
                 max = sym;
         }
-        return max;
+        return max; //a
 
 
     }
     public static int evensSum(int [] ar){
         int sum = 0;
         for(int m: ar){
-            if(m%2==0){
-            sum += m;
+            if(m%2==0){    // если остаток от деления на 2 равен 0, то число чётное
+            sum += m;       // тогда +1 sum=m+sum только четные
         }
         }
         return sum;
@@ -39,7 +39,7 @@ public class JavaArraysMethods {
     public static int minPositiveValue(int [] ar){
         int min = Integer.MAX_VALUE;// или можно написать int min = ar[0]; тоже будет работать
         for(int m: ar){
-            if (m > 0 && m < min)
+            if (m > 0 && m < min) // проверка на то что число положительное и на то что число меньше  тех чисел что мы уже нашли
                 min = m;
         }
         return min;
@@ -59,7 +59,7 @@ public class JavaArraysMethods {
              for(int num: ar)
              {
 
-               if (num%2==0) // если остаток от деления числа на 2 равен 0, то число чётное.
+               if (num%2==0) // если остаток от деления на 2 равен 0, то число чётное
                 count++;
              }
              return count;
@@ -80,9 +80,9 @@ public class JavaArraysMethods {
 
     }
       public static int minValue(int[] ar){
-        int min=ar[0];
+        int min=0;
         for(int num:ar){
-            if(num<min){
+            if(num>min){
                 min=num;
             }
         }
@@ -133,7 +133,7 @@ return a
 public static int evensSum(int [] ar)
 ar - 11 2 5 1 7 3
 calculate sum of events in array
-return sum 28
+return sum
 
 4
 public static int minPositiveValue(int [] ar)

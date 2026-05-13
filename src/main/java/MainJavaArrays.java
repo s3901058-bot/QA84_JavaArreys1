@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class MainJavaArrays {
   public static void main(String[] args) {
         int[] ar={9,2,5,8,5,4,7,-1};
-        char [] ar1 ={'t','z','b','u','w','c'};
+        char [] ar1 ={'t','z','b','u','w','c','a'};
         System.out.println("Min Value:  " + JavaArraysMethods.minValue(ar1));
         System.out.println("Even count: " + JavaArraysMethods.evensCount(ar));
      //   int res = JavaArraysMethods.minValue(ar);
