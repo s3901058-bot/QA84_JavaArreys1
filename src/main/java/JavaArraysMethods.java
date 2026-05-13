@@ -67,12 +67,12 @@ public class JavaArraysMethods {
 
 
     public static char minValue(char[] ar){
-        char min = ar[0];
+        char min = 0;
         char my_sym ='a'; //97
          for (char sym:ar)
          {
 
-             if (sym < min)
+             if (sym > min)
                  min = sym;
         }
         return min;
