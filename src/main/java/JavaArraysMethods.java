@@ -37,13 +37,32 @@ public class JavaArraysMethods {
     }
 
     public static int minPositiveValue(int [] ar){
-        int min = Integer.MAX_VALUE;// или можно написать int min = ar[0]; тоже будет работать
+        int min = ar[0];// или можно написать int min = ar[0]; тоже будет работать
         for(int m: ar){
             if (m > 0 && m < min) // проверка на то что число положительное и на то что число меньше  тех чисел что мы уже нашли
                 min = m;
         }
         return min;
     }
+
+    public static int maxPositiveValue(int [] ar){
+        int max = ar[0];// или можно написать int min = ar[0]; тоже будет работать
+        for(int m: ar){
+            if (m > 0 && m > max) // проверка на то что число положительное и на то что число меньше  тех чисел что мы уже нашли
+                max = m;
+        }
+        return max;
+    }
+
+    public static int maxnegativeValue(int [] ar){
+        int max = ar[0];// или можно написать int min = ar[0]; тоже будет работать
+        for(int m: ar){
+            if (m < 0 && m < max) // проверка на то что число положительное и на то что число меньше  тех чисел что мы уже нашли
+                max = m;
+        }
+        return max;
+    }
+
 
 
 
