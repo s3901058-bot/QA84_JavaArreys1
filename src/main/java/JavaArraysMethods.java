@@ -19,7 +19,7 @@ public class JavaArraysMethods {
         for (char sym:ar)
         {
 
-            if (sym > max)
+            if (sym < max)
                 max = sym;
         }
         return max;
