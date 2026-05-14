@@ -15,7 +15,7 @@ public class JavaArraysMethods {
     }
 
     public static char maxValue(char[] ar){
-        char max = ar[0];   // обрашяемся к первому элементу массива
+        char max = ar[0];   //
         for (char sym:ar)
         {
 
@@ -37,7 +37,7 @@ public class JavaArraysMethods {
     }
 
     public static int minPositiveValue(int [] ar){
-        int min = ar[0];// или можно написать int min = ar[0]; тоже будет работать
+        int min = ar[0];//
         for(int m: ar){
             if (m > 0 && m < min) // проверка на то что число положительное и на то что число меньше  тех чисел что мы уже нашли
                 min = m;
@@ -46,7 +46,7 @@ public class JavaArraysMethods {
     }
 
     public static int maxPositiveValue(int [] ar){
-        int max = ar[0];// или можно написать int min = ar[0]; тоже будет работать
+        int max = ar[0];//
         for(int m: ar){
             if (m > 0 && m > max) // проверка на то что число положительное и на то что число меньше  тех чисел что мы уже нашли
                 max = m;
@@ -55,7 +55,7 @@ public class JavaArraysMethods {
     }
 
     public static int maxnegativeValue(int [] ar){
-        int max = ar[0];// или можно написать int min = ar[0]; тоже будет работать
+        int max = ar[0];//
         for(int m: ar){
             if (m < 0 && m < max) // проверка на то что число положительное и на то что число меньше  тех чисел что мы уже нашли
                 max = m;
