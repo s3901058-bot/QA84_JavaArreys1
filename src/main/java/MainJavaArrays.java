@@ -17,7 +17,7 @@ public class MainJavaArrays {
       System.out.println("evensSum:  "+JavaArraysMethods.evensSum(ar));
       System.out.println("Min PositiveValue: "+JavaArraysMethods.minPositiveValue(ar));
       System.out.println("Max PositiveValue: "+JavaArraysMethods.maxPositiveValue(ar));
-      System.out.println("Max NegativeValue: "+JavaArraysMethods.maxnegativeValue(ar));
+      System.out.println("Max NegativeValue: "+JavaArraysMethods.maxNegativeValue(ar));
 
 
 
